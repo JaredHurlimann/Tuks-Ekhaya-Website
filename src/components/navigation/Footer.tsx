@@ -8,8 +8,7 @@ export const Footer = () => {
           &copy; {year} Tuks Ekhaya Men&apos;s Residence. All rights reserved.
         </p>
         <p className="footer__text footer__text--muted">
-          Built with React and Vite. Future-ready for live events and admin
-          tools.
+          
         </p>
       </div>
     </footer>

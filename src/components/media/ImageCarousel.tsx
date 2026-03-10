@@ -12,7 +12,7 @@ type ImageCarouselProps = {
 
 export const ImageCarousel = ({
   images,
-  intervalMs = 5000
+  intervalMs = 8000
 }: ImageCarouselProps) => {
   const [index, setIndex] = useState(0);
 

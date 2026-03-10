@@ -7,63 +7,52 @@ import { ImageCarousel } from "../../components/media/ImageCarousel";
 
 export const HomePage = () => {
   return (
-    <>
-      <section className="home-hero-strip" aria-label="Images of Tuks Ekhaya">
-        <div className="home-hero-strip__tagline">
-          <span>Adventures</span>
-          <span className="dot-separator" aria-hidden="true">
-            &bull;
-          </span>
-          <span>Memories</span>
-          <span className="dot-separator" aria-hidden="true">
-            &bull;
-          </span>
-          <span>Legacies</span>
-        </div>
-        <ImageCarousel
-          images={[
-            {
-              src: heroImage,
-              alt: "Stylised illustration of Tuks Ekhaya residence"
-            },
-            {
-              src: heroImage2,
-              alt: "Placeholder for Tuks Ekhaya exterior photo"
-            },
-            {
-              src: heroImage3,
-              alt: "Placeholder for Tuks Ekhaya common areas"
-            },
-            {
-              src: heroImage4,
-              alt: "Placeholder for Tuks Ekhaya interior photo"
-            }
-          ]}
-        />
-      </section>
-      <section className="page page--hero">
-        <div className="hero">
-          <div className="hero__content">
-            <h1 className="hero__title">Welcome to Tuks Ekhaya</h1>
-            <p className="hero__subtitle">
-              A home away from home for students of the University of Pretoria.
-            </p>
-            <p className="hero__body">
-              Explore life at Ekhaya, meet the HC, stay up to date with events,
-              and find everything you need to thrive academically and socially.
-            </p>
-            <div className="hero__actions">
-              <Link to="/life-at-ekhaya" className="btn btn--primary">
-                Discover Residence Life
-              </Link>
-              <Link to="/events" className="btn btn--ghost">
-                View Events
-              </Link>
-            </div>
+    <section className="page page--hero">
+      <div className="hero-split">
+        {/* Left Side: Content */}
+        <div className="hero-split__content">
+          <div className="hero-split__tagline">
+            <span>Adventures</span>
+            <span className="dot" aria-hidden="true">•</span>
+            <span>Memories</span>
+            <span className="dot" aria-hidden="true">•</span>
+            <span>Legacies</span>
+          </div>
+          
+          <h1 className="hero-split__title">
+            Tuks Ekhaya <br />
+            <span className="accent-text">Your Home</span>
+          </h1>
+          
+          <p className="hero-split__description">
+          Tuks Ekhaya prides itself on its strong set 
+          of moral values and principles, and believes 
+          every student should have the opportunity to enjoy a 
+          full student life.
+          </p>
+          
+          <div className="hero-split__actions">
+            <Link to="/life-at-ekhaya" className="btn btn--primary btn--large">
+              Explore Life @ Tuks Ekhaya
+            </Link>
+            <Link to="/events" className="btn btn--ghost btn--large">
+              View Events
+            </Link>
           </div>
         </div>
-      </section>
-    </>
+
+        {/* Right Side: Your Carousel */}
+        <div className="hero-split__media">
+          <ImageCarousel
+            images={[
+              { src: heroImage, alt: "Tuks Ekhaya residence life" },
+              { src: heroImage2, alt: "Exterior photo" },
+              { src: heroImage3, alt: "Common areas" },
+              { src: heroImage4, alt: "Interior photo" }
+            ]}
+          />
+        </div>
+      </div>
+    </section>
   );
 };
-
