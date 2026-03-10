@@ -1,0 +1,16 @@
+<svg width="280" height="180" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Academic life at Tuks Ekhaya</title>
+  <desc id="desc">Abstract desks and books in red and grey.</desc>
+  <rect width="280" height="180" rx="12" fill="#111111" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="26" y="52" width="96" height="12" rx="2" fill="#161616" stroke="#2b2b2b" stroke-width="1"/>
+  <rect x="26" y="72" width="64" height="8" rx="2" fill="#161616" stroke="#2b2b2b" stroke-width="1"/>
+  <rect x="26" y="92" width="84" height="8" rx="2" fill="#161616" stroke="#2b2b2b" stroke-width="1"/>
+  <rect x="154" y="40" width="100" height="64" rx="6" fill="#161616" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="162" y="48" width="84" height="32" rx="4" fill="#000000"/>
+  <rect x="170" y="54" width="22" height="4" rx="2" fill="#9c0a15"/>
+  <rect x="170" y="62" width="44" height="3" rx="1.5" fill="#a7a9ab"/>
+  <rect x="170" y="70" width="30" height="3" rx="1.5" fill="#a7a9ab"/>
+  <rect x="154" y="112" width="72" height="8" rx="4" fill="#9c0a15"/>
+  <rect x="154" y="128" width="48" height="4" rx="2" fill="#a7a9ab"/>
+</svg>
+
