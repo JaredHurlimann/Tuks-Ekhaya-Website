@@ -1,2 +1,2 @@
 # Tuks-Ekhaya-Website
-Website for Tuks Ekhaya
+Website for Tuks Ekhaya mens residence.
