@@ -88,11 +88,7 @@ npm run lint
     - Grey text (`#a7a9ab` for muted copy)
     - Primary accent red (`#9c0a15` – Pantone 7627 C)
 - `src/assets/`
-  - `ekhaya-logo.svg` – Logo used in the navbar.
-  - `ekhaya-hero.svg` – Hero illustration on the home page.
-  - `life-academics.svg`, `life-community.svg` – Illustration placeholders on the Life at Ekhaya page.
 
-You can safely replace these SVGs with real photos or official artwork (keep the filenames or update the imports in the components).
 
 ---
 
