@@ -64,7 +64,7 @@ export const AboutPage = () => {
       <div className="about-section">
         <div className="about-section__header">
           <h2>Meet the House Committee</h2>
-          <p className="section-subtitle">The student leaders dedicated to making your Tuks Ekhaya experience unforgettable.</p>
+          <p className="section-subtitle">This is Tuks Ekhaya's House Committee for the term 2025/2026. We, as the cabinet, run the integral operations of the residence. We are here to ensure everything runs smoothly, but above all, we are here to try our best to make each Houteman's residence experience as fruitful and memorable as possible.</p>
         </div>
 
         <div className="team-group-photo">
